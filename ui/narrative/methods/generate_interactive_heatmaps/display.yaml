@@ -74,7 +74,7 @@ parameters :
 
 
 description : |
-   <p>This method helps in the visualization of Cufflinks high-throughput RNA-seq data using CummeRbund Package (csHeatmap method). It uses the data produced from Cuffdiff RNA-seq differential expression analysis as input and creates a heatmap of differentially expressed genes. The expression matrix with or without replicates which were used to create heatmaps are also generated as output objects.</p> 
+   <p>This method helps in the visualization of Cufflinks high-throughput RNA-seq data using CummeRbund Package (csHeatmap method). It uses the data produced from Cuffdiff RNA-seq differential expression analysis as input and creates a heatmap of differentially expressed genes. The expression matrix with or without replicates which were used to create heatmaps are also generated as output objects. The expression values in filtered expression matrix are given in log10(fpkm+1). </p> 
     <p><strong>Team members who developed & deployed algorithm in KBase:</strong>
     Priya Ranjan, Jim Thomason, Srividya Ramakrishnan, Sunita Kumari, Shinjae Yoo, Fei He, Vivek Kumar</p>
     
